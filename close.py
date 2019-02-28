@@ -57,7 +57,7 @@ def main():
   plt.title("Size of Largest Face in Frame")
   plt.show()
 
-  print("Average Size: {}".format(avg_size))
+  print("Average Size: {} \n Median Size: {} \n Max Size: {} \n Standard Deviation: {}".format(avg_size,median_size,max_size,std_dev))
 
 if __name__ == "__main__":
   main()
